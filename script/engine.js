@@ -1,7 +1,7 @@
 (function() {
 	var Engine = window.Engine = {
 
-		SITE_URL: encodeURIComponent("http://adarkroom.doublespeakgames.com"),
+		SITE_URL: encodeURIComponent("http://ray.dusky.me"),
 		VERSION: 1.3,
 		MAX_STORE: 99999999999999,
 		SAVE_DISPLAY: 30 * 1000,
@@ -133,11 +133,11 @@
 				});
 			}
 
-			$('<span>')
-				.addClass('appStore menuBtn')
-				.text(_('get the app.'))
-				.click(Engine.getApp)
-				.appendTo(menu);
+			// $('<span>')
+			// 	.addClass('appStore menuBtn')
+			// 	.text(_('get the app.'))
+			// 	.click(Engine.getApp)
+			// 	.appendTo(menu);
 
 			$('<span>')
 				.addClass('lightsOff menuBtn')
